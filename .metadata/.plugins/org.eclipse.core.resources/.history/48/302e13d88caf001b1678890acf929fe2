@@ -1,0 +1,14 @@
+package concrete;
+
+import abstracts.ICustomerService;
+import entities.Customer;
+
+public class NeroCustomerManager implements ICustomerService{
+
+	@Override
+	public void save(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

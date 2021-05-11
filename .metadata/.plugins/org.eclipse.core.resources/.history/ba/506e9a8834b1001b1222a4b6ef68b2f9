@@ -1,0 +1,5 @@
+package nLayerdDemo.business.abstracts;
+
+public interface ProdcustService {
+	void add(Product product)
+}

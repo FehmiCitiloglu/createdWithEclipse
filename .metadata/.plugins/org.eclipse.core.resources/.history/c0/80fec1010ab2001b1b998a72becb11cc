@@ -1,0 +1,22 @@
+package coffeProject.concretes;
+
+import coffeProject.abstracts.BaseCustomerManager;
+import coffeProject.abstracts.CustomerCheckService;
+import coffeProject.adapter.MernisServiceAdapter;
+import coffeProject.entities.Customer;
+
+public class StarbucksCustomerManager1 extends BaseCustomerManager {
+	CustomerCheckService customerCheckService;
+
+	public StarbucksCustomerManager(MernisServiceAdapter mernisServiceAdapter) {
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public void save(Customer customer){
+		if(customerCheckService.CheckIfRealPerson(customer)) {
+			System.out.println("Save to db: " + customer.getFirstName());
+		} else {
+		System.out.println("Not a valid person");
+		}
+	}
+}

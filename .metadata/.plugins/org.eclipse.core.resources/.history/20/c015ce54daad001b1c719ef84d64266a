@@ -1,0 +1,5 @@
+package nLayerdDemo.entities.concretes;
+
+public class Product {
+
+}

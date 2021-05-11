@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="nLayerdDemo.entities.abstracts.Entity"/>
+    <fullyQualifiedTypeName name="abstracts.IEntity"/>
+    <fullyQualifiedTypeName name="Main"/>
+    <fullyQualifiedTypeName name="concrete.NeroCustomerManager"/>
+    <fullyQualifiedTypeName name="entities.Customer"/>
+    <fullyQualifiedTypeName name="abstracts.ICustomerService"/>
+    <fullyQualifiedTypeName name="abstracts.BaseCustomerManager"/>
+    <fullyQualifiedTypeName name="sun.reflect.generics.reflectiveObjects.NotImplementedException"/>
+    <fullyQualifiedTypeName name="concrete.StarbucksCustomerManager"/>
+    <fullyQualifiedTypeName name="abstracts.ICustomerCheckService"/>
+    <fullyQualifiedTypeName name="Adapters.MernisServiceAdapter"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="nLayerdDemo.dataAccess.concrete.HibernateProductDao"/>
+    <fullyQualifiedTypeName name="nLayerdDemo.business.abstracts.ProductService"/>
+    <fullyQualifiedTypeName name="nLayerdDemo.entities.concretes.Product"/>
+    <fullyQualifiedTypeName name="nLayerdDemo.dataAccess.abstracts.ProductDao"/>
+    <fullyQualifiedTypeName name="nLayerdDemo.dataAccess.concrete.AbcProduxtDao"/>
+    <fullyQualifiedTypeName name="nLayerdDemo.core.LoggerService"/>
+    <fullyQualifiedTypeName name="nLayerdDemo.jLogger.JLoggerManager"/>
+    <fullyQualifiedTypeName name="nLayerdDemo.core.JLoggerManagerAdapter"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="coffeProject.abstracts.Entities"/>
+    <fullyQualifiedTypeName name="coffeProject.concretes.NeroCustomerManager"/>
+    <fullyQualifiedTypeName name="coffeProject.abstracts.BaseCustomerManager"/>
+    <fullyQualifiedTypeName name="coffeProject.entities.Customer"/>
+    <fullyQualifiedTypeName name="coffeProject.abstracts.CustomerCheckService"/>
+    <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/>
+    <fullyQualifiedTypeName name="coffeProject.concretes.StarbucksCustomerManager"/>
+    <fullyQualifiedTypeName name="java.time.ZoneId"/>
+    <fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+    <fullyQualifiedTypeName name="coffeProject.adapter.MernisServiceAdapter"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+</qualifiedTypeNameHistroy>

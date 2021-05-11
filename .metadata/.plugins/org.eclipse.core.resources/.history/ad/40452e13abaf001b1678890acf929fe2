@@ -1,0 +1,7 @@
+package concrete;
+
+import abstracts.ICustomerCheckService;
+
+public class CustomerCheckManager implements ICustomerCheckService{
+
+}

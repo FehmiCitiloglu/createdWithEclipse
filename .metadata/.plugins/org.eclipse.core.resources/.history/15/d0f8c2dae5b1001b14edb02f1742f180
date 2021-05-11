@@ -1,0 +1,25 @@
+package coffeProject;
+
+import java.time.LocalDate;
+
+import coffeProject.abstracts.BaseCustomerManager;
+import coffeProject.concretes.NeroCustomerManager;
+import coffeProject.entities.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Customer customer = new Customer();
+		customer.setId(1);
+		customer.setFirstName("Fehmi");
+		customer.setLastName("Çitiloğlu");
+		customer.setBirthday(LocalDate.of(1995, 10, 8));
+		customer.setNationalId("19937541920"s);
+		
+		
+		BaseCustomerManager customerManager = new NeroCustomerManager();
+		customerManager.save(customer);
+
+	}
+
+}

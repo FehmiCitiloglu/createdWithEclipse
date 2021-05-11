@@ -1,0 +1,7 @@
+package nLayerdDemo.dataAccess.concrete;
+
+import nLayerdDemo.dataAccess.abstracts.ProductDao;
+
+public class HibernateProductDao implements ProductDao{
+		// veri tabanıyle iletişim kuran java yapısı
+}
