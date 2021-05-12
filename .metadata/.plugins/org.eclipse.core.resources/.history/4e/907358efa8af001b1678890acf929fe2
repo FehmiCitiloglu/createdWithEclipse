@@ -1,7 +1,0 @@
-package concrete;
-
-import abstracts.BaseCustomerManager;
-
-public class SturbucksCustomerManager extends BaseCustomerManager{
-	
-}

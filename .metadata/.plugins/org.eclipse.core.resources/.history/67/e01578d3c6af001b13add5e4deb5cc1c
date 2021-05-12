@@ -1,7 +1,0 @@
-package abstracts;
-
-import entities.Customer;
-
-public class ICustomerCheckService implements ICustomerService{
-	 boolean ChechkIfRealPerson(Customer customer);
-}

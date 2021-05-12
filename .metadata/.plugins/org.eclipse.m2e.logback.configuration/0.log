@@ -4473,3 +4473,55 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2021-05-11 02:02:34,252 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2021-05-11 03:07:48,170 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2021-05-11 07:24:44,733 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-11 22:10:54,735 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-11 22:11:54,594 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-11 22:11:54,595 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-05-11 22:11:54,599 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 22:11:54,613 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 22:11:54,616 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-11 22:11:54,617 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2021-05-11 22:11:54,617 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\makar\eclipse-workspace\northwind\src\test\resources
+2021-05-11 22:11:56,285 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Running code generation in fork mode...
+2021-05-11 22:11:56,296 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The java executable is C:\Program Files\Java\jdk-16.0.1\bin\java.exe
+2021-05-11 22:11:57,292 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2021-05-11 22:11:57,293 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2021-05-11 22:11:57,294 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2021-05-11 22:11:57,625 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Exception in thread "main" org.apache.cxf.tools.common.ToolException: org.apache.cxf.wsdl11.WSDLRuntimeException: Fail to create wsdl definition file:/C:/Users/makar/eclipse-workspace/tcDogrulama/src/main/resources/Mernis.wsdl: WSDLException: faultCode=PARSER_ERROR: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character 'T' (code 84) in prolog; expected '<'
+2021-05-11 22:11:57,626 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger -  at [row,col,system-id]: [1,1,"file:/C:/Users/makar/eclipse-workspace/tcDogrulama/src/main/resources/Mernis.wsdl"]
+2021-05-11 22:11:57,627 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.tools.wsdlto.WSDLToJavaContainer.execute(WSDLToJavaContainer.java:410)
+2021-05-11 22:11:57,628 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.tools.common.toolspec.ToolRunner.runTool(ToolRunner.java:105)
+2021-05-11 22:11:57,628 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.tools.wsdlto.WSDLToJava.run(WSDLToJava.java:113)
+2021-05-11 22:11:57,629 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.tools.wsdlto.WSDLToJava.run(WSDLToJava.java:86)
+2021-05-11 22:11:57,629 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.maven_plugin.wsdl2java.ForkOnceWSDL2Java.main(ForkOnceWSDL2Java.java:51)
+2021-05-11 22:11:57,630 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Caused by: org.apache.cxf.wsdl11.WSDLRuntimeException: Fail to create wsdl definition file:/C:/Users/makar/eclipse-workspace/tcDogrulama/src/main/resources/Mernis.wsdl: WSDLException: faultCode=PARSER_ERROR: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character 'T' (code 84) in prolog; expected '<'
+2021-05-11 22:11:57,631 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger -  at [row,col,system-id]: [1,1,"file:/C:/Users/makar/eclipse-workspace/tcDogrulama/src/main/resources/Mernis.wsdl"]
+2021-05-11 22:11:57,631 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.tools.wsdlto.core.WSDLDefinitionBuilder.parseWSDL(WSDLDefinitionBuilder.java:99)
+2021-05-11 22:11:57,632 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.tools.wsdlto.core.WSDLDefinitionBuilder.build(WSDLDefinitionBuilder.java:71)
+2021-05-11 22:11:57,632 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.tools.wsdlto.frontend.jaxws.wsdl11.JAXWSDefinitionBuilder.build(JAXWSDefinitionBuilder.java:84)
+2021-05-11 22:11:57,633 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.tools.wsdlto.frontend.jaxws.wsdl11.JAXWSDefinitionBuilder.build(JAXWSDefinitionBuilder.java:61)
+2021-05-11 22:11:57,633 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.tools.wsdlto.WSDLToJavaContainer.processWsdl(WSDLToJavaContainer.java:187)
+2021-05-11 22:11:57,634 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.tools.wsdlto.WSDLToJavaContainer.execute(WSDLToJavaContainer.java:156)
+2021-05-11 22:11:57,635 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.tools.wsdlto.WSDLToJavaContainer.execute(WSDLToJavaContainer.java:402)
+2021-05-11 22:11:57,635 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	... 4 more
+2021-05-11 22:11:57,636 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Caused by: javax.wsdl.WSDLException: WSDLException: faultCode=PARSER_ERROR: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character 'T' (code 84) in prolog; expected '<'
+2021-05-11 22:11:57,636 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger -  at [row,col,system-id]: [1,1,"file:/C:/Users/makar/eclipse-workspace/tcDogrulama/src/main/resources/Mernis.wsdl"]
+2021-05-11 22:11:57,637 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.wsdl11.WSDLManagerImpl.loadDefinition(WSDLManagerImpl.java:244)
+2021-05-11 22:11:57,638 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.wsdl11.WSDLManagerImpl.getDefinition(WSDLManagerImpl.java:165)
+2021-05-11 22:11:57,639 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.tools.wsdlto.core.WSDLDefinitionBuilder.parseWSDL(WSDLDefinitionBuilder.java:80)
+2021-05-11 22:11:57,639 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	... 10 more
+2021-05-11 22:11:57,640 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Caused by: com.ctc.wstx.exc.WstxUnexpectedCharException: Unexpected character 'T' (code 84) in prolog; expected '<'
+2021-05-11 22:11:57,640 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger -  at [row,col,system-id]: [1,1,"file:/C:/Users/makar/eclipse-workspace/tcDogrulama/src/main/resources/Mernis.wsdl"]
+2021-05-11 22:11:57,641 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at com.ctc.wstx.sr.StreamScanner.throwUnexpectedChar(StreamScanner.java:666)
+2021-05-11 22:11:57,641 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at com.ctc.wstx.sr.BasicStreamReader.nextFromProlog(BasicStreamReader.java:2148)
+2021-05-11 22:11:57,642 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at com.ctc.wstx.sr.BasicStreamReader.next(BasicStreamReader.java:1180)
+2021-05-11 22:11:57,642 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.staxutils.StaxUtils.readDocElements(StaxUtils.java:1349)
+2021-05-11 22:11:57,643 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.staxutils.StaxUtils.readDocElements(StaxUtils.java:1243)
+2021-05-11 22:11:57,643 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.staxutils.StaxUtils.read(StaxUtils.java:1171)
+2021-05-11 22:11:57,643 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	at org.apache.cxf.wsdl11.WSDLManagerImpl.loadDefinition(WSDLManagerImpl.java:235)
+2021-05-11 22:11:57,644 [Thread-26] WARN  o.e.m.c.i.embedder.EclipseLogger - 	... 12 more
+2021-05-11 22:11:57,900 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 22:11:57,901 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-11 22:11:57,908 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-11 22:11:57,909 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-05-11 22:51:13,284 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-12 02:32:37,841 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
