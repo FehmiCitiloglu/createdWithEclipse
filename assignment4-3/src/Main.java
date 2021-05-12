@@ -72,10 +72,6 @@ public class Main {
 		orderManager.completeOrder(customer);
 		
 		
-		List<Order> orders = new ArrayList<Order>();
-		for(Order order : orders) {
-			System.out.println(order.getGameId());
-		}
 
 	}
 
