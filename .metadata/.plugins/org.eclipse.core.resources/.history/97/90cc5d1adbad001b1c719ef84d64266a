@@ -1,5 +1,0 @@
-package nLayerdDemo.dataAccess.abstracts;
-
-public interface ProdcutDao {
-
-}

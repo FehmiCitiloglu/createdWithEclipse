@@ -1,5 +1,0 @@
-package coffeProject.adapter;
-
-public interface PersonCheckService {
-
-}

@@ -1,7 +1,0 @@
-package coffeProject.abstracts;
-
-import coffeProject.entities.Customer;
-
-public interface CustomerCheckService {
-	void CheckIfRealPerson(Customer customer);
-}

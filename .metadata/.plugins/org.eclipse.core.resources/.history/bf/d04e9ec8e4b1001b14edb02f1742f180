@@ -1,5 +1,0 @@
-package coffeProject.abstracts;
-
-public interface CustomerService {
-
-}

@@ -1,8 +1,0 @@
-package coffeProject.abstracts;
-
-import coffeProject.entities.Customer;
-
-public interface CustomerService {
-	private void save(Customer customer) {
-	}
-}

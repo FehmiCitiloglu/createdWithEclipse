@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\makar\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2656222900.index
-\webproject\src\main\resources

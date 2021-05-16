@@ -1,7 +1,0 @@
-package nLayerdDemo.business.concretes;
-
-
-
-public class ProductManager implements ProductService{
-
-}
